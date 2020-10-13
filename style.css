@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "space mono";
+  background: #ffffff;
+  width: 1080px;
+}
+.container {
+  margin-top: 0 auto;
+}
+.header {
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+
+  color: #333333;
+  width: 100%;
+  margin: 40px 0px 200px 120px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 30%;
+
+  display: inline-flex;
+}
+.image img {
+  width: 539.22px;
+  height: 457px;
+}
+.content {
+  margin-left: 118.78px;
+}
+.content h1 {
+  width: 650px;
+  height: 190px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.03em;
+  margin-bottom: 36px;
+
+  color: #333333;
+}
+
+.content p {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+
+  /* Gray 2 */
+
+  color: #4f4f4f;
+  margin-bottom: 64px;
+  margin-left: 2px;
+}
+.content button {
+  width: 216px;
+  height: 68px;
+  background: #333333;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+
+  border: none;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  transition: 0.3s;
+}
+.content button:hover {
+  width: 216px;
+  height: 68px;
+  background: #2b254e;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  border: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer .name {
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333333;
+}
